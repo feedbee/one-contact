@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<RelativeLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_marginBottom="10dp" android:layout_marginTop="10dp">
+		<Button android:id="@+id/wc_btn_pick"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/button_pick"
+			android:layout_alignParentLeft="true" />
+		<Button
+			android:id="@+id/wc_btn_quit"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/button_quit"
+			android:layout_below="@id/wc_btn_pick"
+			android:layout_toRightOf="@id/wc_btn_pick"
+			android:layout_alignTop="@id/wc_btn_pick" />
+		<Button android:id="@+id/wc_btn_apply"
+			android:enabled="false"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/button_apply"
+			android:layout_below="@id/wc_btn_quit"
+			android:layout_toRightOf="@id/wc_btn_quit"
+			android:layout_alignTop="@id/wc_btn_pick" />
+	</RelativeLayout>
+	<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+			<ImageView android:id="@+id/wc_cnt_photo"
+				android:src="@drawable/photo_default"
+				android:scaleType="fitXY"
+				android:layout_gravity="center_horizontal"
+				android:layout_width="100dp" android:layout_height="100dp" />
+			<TextView android:id="@+id/wc_cnt_name"
+				android:layout_width="fill_parent"
+				android:gravity="center_horizontal"
+				android:text="@string/cnt_name"
+				android:layout_height="wrap_content" />
+			<CheckBox android:id="@+id/wc_display_name"
+				android:checked="true"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical"
+				android:text="@string/l_display_name" />
+			<RadioGroup
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:id="@+id/wc_phone_list">
+			</RadioGroup>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

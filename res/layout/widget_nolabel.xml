@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content"
+	android:layout_width="wrap_content"
+	android:orientation="vertical">
+	<ImageButton android:id="@+id/wn_photo"
+		android:src="@drawable/photo_default"
+		android:background="@drawable/widget_button"
+		android:padding="4dp"
+		android:scaleType="centerInside"
+		android:layout_height="72dp"
+		android:layout_width="72dp"
+		android:layout_centerHorizontal="true" />
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">One Contact</string>
+	<string name="app_desc">Виджет рабочего стола.</string>
+	<string name="cnt_name">Контакт не выбран</string>
+	<string name="button_pick">Выбрать контакт</string>
+	<string name="button_quit">Отменить</string>
+	<string name="button_apply">Применить</string>
+	
+	<string name="l_open_contact">Открыть контакт</string>
+	<string name="l_contact_name">Имя контакта</string>
+	<string name="l_display_name">Отображать имя контакта в виджете</string>
+	
+	<string-array name="phone_type">
+		<item>Домашний</item>
+		<item>Мобильный</item>
+		<item>Рабочий</item>
+		<item>Факс рабочий</item>
+		<item>Факс дом.</item>
+		<item>Пейджер</item>
+		<item>Другой номер</item>
+		<item>Перезвон.</item>
+		<item>Авто</item>
+		<item>Офисный</item>
+		<item>ISDN</item>
+		<item>Другой факс</item>
+		<item>Радио</item>
+		<item>Телекс</item>
+		<item>TTY_TDD</item>
+		<item>Рабочий моб.</item>
+		<item>Рабочий пейдж.</item>
+		<item>Ассистент</item>
+		<item>ММС</item>
+	</string-array>
+</resources>

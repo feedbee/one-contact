@@ -1,0 +1,7 @@
+0.2.2 [alpha]:
+= Widget label font size adapted for system settings
+0.2.1 [alpha]:
+= Widget lookup improved
+0.2.0 [alpha]:
++ Widget interactivity
+= First results
